@@ -1,0 +1,6 @@
+services:
+  app:
+    container_name: auth-app
+    build: ./
+    ports:
+      - "8080:8080"
